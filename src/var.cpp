@@ -1,25 +1,44 @@
-// var.cpp
 #include "var.hpp"
+#include <iostream>
 
-// Constructor to initialize the value and derivative
-Var::Var(double v, double d) : value(v), derivative(d) {}
+Var::Var(double v, double d) : value(v), derivative(d), grad(0.0), backward(nullptr) {}
 
-// Getter for the value
 double Var::getValue() const {
     return value;
 }
 
-// Getter for the derivative
 double Var::getDerivative() const {
     return derivative;
 }
 
-// Setter for the value
 void Var::setValue(double v) {
     value = v;
 }
 
-// Setter for the derivative
 void Var::setDerivative(double d) {
     derivative = d;
+}
+
+void Var::addGrad(double g) {
+    grad += g;
+}
+
+double Var::getGrad() const {
+    return grad;
+}
+
+void Var::setBackward(std::function<void()> func) {
+    backward = func;
+}
+
+void Var::runBackward() {
+    if (backward) {
+        backward();
+    }
+    for (Var* child : children) {
+        child->addGrad(grad);
+        child->runBackward();
+    }
+    derivative += grad;
+    grad = 0.0;
 }

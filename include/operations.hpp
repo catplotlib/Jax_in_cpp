@@ -4,8 +4,9 @@
 
 #include "var.hpp"
 
-// Declare addition and multiplication for Var objects
-Var add(const Var& a, const Var& b);
-Var multiply(const Var& a, const Var& b);
+Var add(Var& a, Var& b);
+Var multiply(Var& a, Var& b);
+Var sin(Var& a);  
+Var cos(Var& a); 
 
 #endif // OPERATIONS_HPP

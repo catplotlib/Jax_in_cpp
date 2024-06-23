@@ -32,3 +32,12 @@ add_executable(simple_example
 
 # Since simple_example doesn't use Google Test, it only needs to be linked with the pthread library if necessary
 target_link_libraries(simple_example pthread)
+
+# Define another executable for the simple_example
+add_executable(sin_example
+  examples/sin_example.cpp
+  src/var.cpp
+  src/operations.cpp
+)
+
+target_link_libraries(sin_example pthread)

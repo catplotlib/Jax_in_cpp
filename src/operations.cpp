@@ -1,18 +1,39 @@
-// operations.cpp
 #include "var.hpp"
+#include "operations.hpp"
+#include <iostream>
+#include <cmath> 
 
-// Addition of two Var objects
-Var add(const Var& a, const Var& b) {
-    // The derivative of the sum is the sum of the derivatives
-    double result_value = a.getValue() + b.getValue();
-    double result_derivative = a.getDerivative() + b.getDerivative();
-    return Var(result_value, result_derivative);
+
+Var multiply(Var& a, Var& b) {
+    Var result(a.getValue() * b.getValue(), a.getDerivative() * b.getValue() + b.getDerivative() * a.getValue());
+    result.setBackward([&]() { 
+        a.addGrad(b.getValue() * result.getGrad());
+        b.addGrad(a.getValue() * result.getGrad());
+    });
+    return result;
 }
 
-// Multiplication of two Var objects
-Var multiply(const Var& a, const Var& b) {
-    double result_value = a.getValue() * b.getValue();
-    double result_derivative = a.getDerivative() * b.getValue() + a.getValue() * b.getDerivative();
-    return Var(result_value, result_derivative);
+Var add(Var& a, Var& b) {
+    Var result(a.getValue() + b.getValue(), a.getDerivative() + b.getDerivative());
+    result.setBackward([&]() { 
+        a.addGrad(result.getGrad());
+        b.addGrad(result.getGrad());
+    });
+    return result;
 }
 
+Var sin(Var& a) {
+    Var result(std::sin(a.getValue()), std::cos(a.getValue()) * a.getDerivative());
+    result.setBackward([&]() {
+        a.addGrad(std::cos(a.getValue()) * result.getGrad());
+    });
+    return result;
+}
+
+Var cos(Var& a) {
+    Var result(std::cos(a.getValue()), -std::sin(a.getValue()) * a.getDerivative());
+    result.setBackward([&]() { 
+        a.addGrad(-std::sin(a.getValue()) * result.getGrad());
+    });
+    return result;
+}
