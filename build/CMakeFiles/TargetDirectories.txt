@@ -1,4 +1,5 @@
 /Users/pujachaudhury/Documents/C++/jax_ad/build/CMakeFiles/my_test.dir
 /Users/pujachaudhury/Documents/C++/jax_ad/build/CMakeFiles/simple_example.dir
+/Users/pujachaudhury/Documents/C++/jax_ad/build/CMakeFiles/sin_example.dir
 /Users/pujachaudhury/Documents/C++/jax_ad/build/CMakeFiles/edit_cache.dir
 /Users/pujachaudhury/Documents/C++/jax_ad/build/CMakeFiles/rebuild_cache.dir

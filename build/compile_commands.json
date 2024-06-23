@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/Users/pujachaudhury/Documents/C++/jax_ad/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/pujachaudhury/Documents/C++/jax_ad/include -isystem /usr/local/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o CMakeFiles/my_test.dir/tests/test_var.cpp.o -c /Users/pujachaudhury/Documents/C++/jax_ad/tests/test_var.cpp",
+  "file": "/Users/pujachaudhury/Documents/C++/jax_ad/tests/test_var.cpp",
+  "output": "CMakeFiles/my_test.dir/tests/test_var.cpp.o"
+},
+{
+  "directory": "/Users/pujachaudhury/Documents/C++/jax_ad/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/pujachaudhury/Documents/C++/jax_ad/include -isystem /usr/local/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o CMakeFiles/my_test.dir/tests/test_operations.cpp.o -c /Users/pujachaudhury/Documents/C++/jax_ad/tests/test_operations.cpp",
+  "file": "/Users/pujachaudhury/Documents/C++/jax_ad/tests/test_operations.cpp",
+  "output": "CMakeFiles/my_test.dir/tests/test_operations.cpp.o"
+},
+{
+  "directory": "/Users/pujachaudhury/Documents/C++/jax_ad/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/pujachaudhury/Documents/C++/jax_ad/include -isystem /usr/local/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o CMakeFiles/my_test.dir/src/var.cpp.o -c /Users/pujachaudhury/Documents/C++/jax_ad/src/var.cpp",
+  "file": "/Users/pujachaudhury/Documents/C++/jax_ad/src/var.cpp",
+  "output": "CMakeFiles/my_test.dir/src/var.cpp.o"
+},
+{
+  "directory": "/Users/pujachaudhury/Documents/C++/jax_ad/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/pujachaudhury/Documents/C++/jax_ad/include -isystem /usr/local/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o CMakeFiles/my_test.dir/src/operations.cpp.o -c /Users/pujachaudhury/Documents/C++/jax_ad/src/operations.cpp",
+  "file": "/Users/pujachaudhury/Documents/C++/jax_ad/src/operations.cpp",
+  "output": "CMakeFiles/my_test.dir/src/operations.cpp.o"
+},
+{
+  "directory": "/Users/pujachaudhury/Documents/C++/jax_ad/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/pujachaudhury/Documents/C++/jax_ad/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o CMakeFiles/simple_example.dir/examples/simple_example.cpp.o -c /Users/pujachaudhury/Documents/C++/jax_ad/examples/simple_example.cpp",
+  "file": "/Users/pujachaudhury/Documents/C++/jax_ad/examples/simple_example.cpp",
+  "output": "CMakeFiles/simple_example.dir/examples/simple_example.cpp.o"
+},
+{
+  "directory": "/Users/pujachaudhury/Documents/C++/jax_ad/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/pujachaudhury/Documents/C++/jax_ad/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o CMakeFiles/simple_example.dir/src/var.cpp.o -c /Users/pujachaudhury/Documents/C++/jax_ad/src/var.cpp",
+  "file": "/Users/pujachaudhury/Documents/C++/jax_ad/src/var.cpp",
+  "output": "CMakeFiles/simple_example.dir/src/var.cpp.o"
+},
+{
+  "directory": "/Users/pujachaudhury/Documents/C++/jax_ad/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/pujachaudhury/Documents/C++/jax_ad/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o CMakeFiles/simple_example.dir/src/operations.cpp.o -c /Users/pujachaudhury/Documents/C++/jax_ad/src/operations.cpp",
+  "file": "/Users/pujachaudhury/Documents/C++/jax_ad/src/operations.cpp",
+  "output": "CMakeFiles/simple_example.dir/src/operations.cpp.o"
+},
+{
+  "directory": "/Users/pujachaudhury/Documents/C++/jax_ad/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/pujachaudhury/Documents/C++/jax_ad/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o CMakeFiles/sin_example.dir/examples/sin_example.cpp.o -c /Users/pujachaudhury/Documents/C++/jax_ad/examples/sin_example.cpp",
+  "file": "/Users/pujachaudhury/Documents/C++/jax_ad/examples/sin_example.cpp",
+  "output": "CMakeFiles/sin_example.dir/examples/sin_example.cpp.o"
+},
+{
+  "directory": "/Users/pujachaudhury/Documents/C++/jax_ad/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/pujachaudhury/Documents/C++/jax_ad/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o CMakeFiles/sin_example.dir/src/var.cpp.o -c /Users/pujachaudhury/Documents/C++/jax_ad/src/var.cpp",
+  "file": "/Users/pujachaudhury/Documents/C++/jax_ad/src/var.cpp",
+  "output": "CMakeFiles/sin_example.dir/src/var.cpp.o"
+},
+{
+  "directory": "/Users/pujachaudhury/Documents/C++/jax_ad/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/pujachaudhury/Documents/C++/jax_ad/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o CMakeFiles/sin_example.dir/src/operations.cpp.o -c /Users/pujachaudhury/Documents/C++/jax_ad/src/operations.cpp",
+  "file": "/Users/pujachaudhury/Documents/C++/jax_ad/src/operations.cpp",
+  "output": "CMakeFiles/sin_example.dir/src/operations.cpp.o"
+}
+]
