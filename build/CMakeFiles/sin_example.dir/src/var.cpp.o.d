@@ -1,4 +1,4 @@
-CMakeFiles/simple_example.dir/src/var.cpp.o: \
+CMakeFiles/sin_example.dir/src/var.cpp.o: \
   /Users/pujachaudhury/Documents/C++/jax_ad/src/var.cpp \
   /Users/pujachaudhury/Documents/C++/jax_ad/include/var.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/functional \

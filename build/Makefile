@@ -130,41 +130,41 @@ my_test/fast:
 .PHONY : my_test/fast
 
 #=============================================================================
-# Target rules for targets named simple_example
+# Target rules for targets named sin_example
 
 # Build rule for target.
-simple_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_example
-.PHONY : simple_example
+sin_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sin_example
+.PHONY : sin_example
 
 # fast build rule for target.
-simple_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example.dir/build.make CMakeFiles/simple_example.dir/build
-.PHONY : simple_example/fast
+sin_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sin_example.dir/build.make CMakeFiles/sin_example.dir/build
+.PHONY : sin_example/fast
 
-examples/simple_example.o: examples/simple_example.cpp.o
-.PHONY : examples/simple_example.o
+examples/sin_example.o: examples/sin_example.cpp.o
+.PHONY : examples/sin_example.o
 
 # target to build an object file
-examples/simple_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example.dir/build.make CMakeFiles/simple_example.dir/examples/simple_example.cpp.o
-.PHONY : examples/simple_example.cpp.o
+examples/sin_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sin_example.dir/build.make CMakeFiles/sin_example.dir/examples/sin_example.cpp.o
+.PHONY : examples/sin_example.cpp.o
 
-examples/simple_example.i: examples/simple_example.cpp.i
-.PHONY : examples/simple_example.i
+examples/sin_example.i: examples/sin_example.cpp.i
+.PHONY : examples/sin_example.i
 
 # target to preprocess a source file
-examples/simple_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example.dir/build.make CMakeFiles/simple_example.dir/examples/simple_example.cpp.i
-.PHONY : examples/simple_example.cpp.i
+examples/sin_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sin_example.dir/build.make CMakeFiles/sin_example.dir/examples/sin_example.cpp.i
+.PHONY : examples/sin_example.cpp.i
 
-examples/simple_example.s: examples/simple_example.cpp.s
-.PHONY : examples/simple_example.s
+examples/sin_example.s: examples/sin_example.cpp.s
+.PHONY : examples/sin_example.s
 
 # target to generate assembly for a file
-examples/simple_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example.dir/build.make CMakeFiles/simple_example.dir/examples/simple_example.cpp.s
-.PHONY : examples/simple_example.cpp.s
+examples/sin_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sin_example.dir/build.make CMakeFiles/sin_example.dir/examples/sin_example.cpp.s
+.PHONY : examples/sin_example.cpp.s
 
 src/operations.o: src/operations.cpp.o
 .PHONY : src/operations.o
@@ -172,7 +172,7 @@ src/operations.o: src/operations.cpp.o
 # target to build an object file
 src/operations.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_test.dir/build.make CMakeFiles/my_test.dir/src/operations.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example.dir/build.make CMakeFiles/simple_example.dir/src/operations.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sin_example.dir/build.make CMakeFiles/sin_example.dir/src/operations.cpp.o
 .PHONY : src/operations.cpp.o
 
 src/operations.i: src/operations.cpp.i
@@ -181,7 +181,7 @@ src/operations.i: src/operations.cpp.i
 # target to preprocess a source file
 src/operations.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_test.dir/build.make CMakeFiles/my_test.dir/src/operations.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example.dir/build.make CMakeFiles/simple_example.dir/src/operations.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sin_example.dir/build.make CMakeFiles/sin_example.dir/src/operations.cpp.i
 .PHONY : src/operations.cpp.i
 
 src/operations.s: src/operations.cpp.s
@@ -190,7 +190,7 @@ src/operations.s: src/operations.cpp.s
 # target to generate assembly for a file
 src/operations.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_test.dir/build.make CMakeFiles/my_test.dir/src/operations.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example.dir/build.make CMakeFiles/simple_example.dir/src/operations.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sin_example.dir/build.make CMakeFiles/sin_example.dir/src/operations.cpp.s
 .PHONY : src/operations.cpp.s
 
 src/var.o: src/var.cpp.o
@@ -199,7 +199,7 @@ src/var.o: src/var.cpp.o
 # target to build an object file
 src/var.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_test.dir/build.make CMakeFiles/my_test.dir/src/var.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example.dir/build.make CMakeFiles/simple_example.dir/src/var.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sin_example.dir/build.make CMakeFiles/sin_example.dir/src/var.cpp.o
 .PHONY : src/var.cpp.o
 
 src/var.i: src/var.cpp.i
@@ -208,7 +208,7 @@ src/var.i: src/var.cpp.i
 # target to preprocess a source file
 src/var.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_test.dir/build.make CMakeFiles/my_test.dir/src/var.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example.dir/build.make CMakeFiles/simple_example.dir/src/var.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sin_example.dir/build.make CMakeFiles/sin_example.dir/src/var.cpp.i
 .PHONY : src/var.cpp.i
 
 src/var.s: src/var.cpp.s
@@ -217,7 +217,7 @@ src/var.s: src/var.cpp.s
 # target to generate assembly for a file
 src/var.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_test.dir/build.make CMakeFiles/my_test.dir/src/var.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example.dir/build.make CMakeFiles/simple_example.dir/src/var.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sin_example.dir/build.make CMakeFiles/sin_example.dir/src/var.cpp.s
 .PHONY : src/var.cpp.s
 
 tests/test_operations.o: tests/test_operations.cpp.o
@@ -277,10 +277,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... my_test"
-	@echo "... simple_example"
-	@echo "... examples/simple_example.o"
-	@echo "... examples/simple_example.i"
-	@echo "... examples/simple_example.s"
+	@echo "... sin_example"
+	@echo "... examples/sin_example.o"
+	@echo "... examples/sin_example.i"
+	@echo "... examples/sin_example.s"
 	@echo "... src/operations.o"
 	@echo "... src/operations.i"
 	@echo "... src/operations.s"

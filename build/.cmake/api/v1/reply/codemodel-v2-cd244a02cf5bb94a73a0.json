@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -16,12 +16,11 @@
 					"targetIndexes" : 
 					[
 						0,
-						1,
-						2
+						1
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "",
 			"projects" : 
 			[
 				{
@@ -33,8 +32,7 @@
 					"targetIndexes" : 
 					[
 						0,
-						1,
-						2
+						1
 					]
 				}
 			],
@@ -43,21 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "my_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-my_test-Debug-1b7ae60ea7963e19c42a.json",
+					"jsonFile" : "target-my_test-b6f13a2f1279f56efcf7.json",
 					"name" : "my_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "simple_example::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-simple_example-Debug-e3b5f66bc4585ec4ab73.json",
-					"name" : "simple_example",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
 					"id" : "sin_example::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-sin_example-Debug-c6bf99922a95aac863fc.json",
+					"jsonFile" : "target-sin_example-df699fbcf70d7693c414.json",
 					"name" : "sin_example",
 					"projectIndex" : 0
 				}

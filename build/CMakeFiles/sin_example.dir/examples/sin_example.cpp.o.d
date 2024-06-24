@@ -1,5 +1,5 @@
-CMakeFiles/simple_example.dir/examples/simple_example.cpp.o: \
-  /Users/pujachaudhury/Documents/C++/jax_ad/examples/simple_example.cpp \
+CMakeFiles/sin_example.dir/examples/sin_example.cpp.o: \
+  /Users/pujachaudhury/Documents/C++/jax_ad/examples/sin_example.cpp \
   /Users/pujachaudhury/Documents/C++/jax_ad/include/var.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__config \

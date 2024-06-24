@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "simple_example"
+			"path" : "sin_example"
 		}
 	],
 	"backtrace" : 1,
@@ -49,7 +49,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk"
+					"fragment" : "-std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk"
 				}
 			],
 			"includes" : 
@@ -76,15 +76,11 @@
 			]
 		}
 	],
-	"id" : "simple_example::@6890427a1f51a3e7e1df",
+	"id" : "sin_example::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
-			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
 			{
 				"fragment" : "",
 				"role" : "flags"
@@ -97,8 +93,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "simple_example",
-	"nameOnDisk" : "simple_example",
+	"name" : "sin_example",
+	"nameOnDisk" : "sin_example",
 	"paths" : 
 	{
 		"build" : ".",
@@ -121,7 +117,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "examples/simple_example.cpp",
+			"path" : "examples/sin_example.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

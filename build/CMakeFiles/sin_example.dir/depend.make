@@ -1,2 +1,2 @@
-# Empty dependencies file for simple_example.
+# Empty dependencies file for sin_example.
 # This may be replaced when dependencies are built.

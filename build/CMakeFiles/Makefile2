@@ -64,7 +64,7 @@ CMAKE_BINARY_DIR = /Users/pujachaudhury/Documents/C++/jax_ad/build
 
 # The main recursive "all" target.
 all: CMakeFiles/my_test.dir/all
-all: CMakeFiles/simple_example.dir/all
+all: CMakeFiles/sin_example.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,7 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/my_test.dir/clean
-clean: CMakeFiles/simple_example.dir/clean
+clean: CMakeFiles/sin_example.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -103,30 +103,30 @@ CMakeFiles/my_test.dir/clean:
 .PHONY : CMakeFiles/my_test.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/simple_example.dir
+# Target rules for target CMakeFiles/sin_example.dir
 
 # All Build rule for target.
-CMakeFiles/simple_example.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example.dir/build.make CMakeFiles/simple_example.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example.dir/build.make CMakeFiles/simple_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/pujachaudhury/Documents/C++/jax_ad/build/CMakeFiles --progress-num=6,7,8,9 "Built target simple_example"
-.PHONY : CMakeFiles/simple_example.dir/all
+CMakeFiles/sin_example.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sin_example.dir/build.make CMakeFiles/sin_example.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sin_example.dir/build.make CMakeFiles/sin_example.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/pujachaudhury/Documents/C++/jax_ad/build/CMakeFiles --progress-num=6,7,8,9 "Built target sin_example"
+.PHONY : CMakeFiles/sin_example.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/simple_example.dir/rule: cmake_check_build_system
+CMakeFiles/sin_example.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pujachaudhury/Documents/C++/jax_ad/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple_example.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sin_example.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pujachaudhury/Documents/C++/jax_ad/build/CMakeFiles 0
-.PHONY : CMakeFiles/simple_example.dir/rule
+.PHONY : CMakeFiles/sin_example.dir/rule
 
 # Convenience name for target.
-simple_example: CMakeFiles/simple_example.dir/rule
-.PHONY : simple_example
+sin_example: CMakeFiles/sin_example.dir/rule
+.PHONY : sin_example
 
 # clean rule for target.
-CMakeFiles/simple_example.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example.dir/build.make CMakeFiles/simple_example.dir/clean
-.PHONY : CMakeFiles/simple_example.dir/clean
+CMakeFiles/sin_example.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sin_example.dir/build.make CMakeFiles/sin_example.dir/clean
+.PHONY : CMakeFiles/sin_example.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

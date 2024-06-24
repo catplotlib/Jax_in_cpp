@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/pujachaudhury/Documents/C++/jax_ad/examples/simple_example.cpp" "CMakeFiles/simple_example.dir/examples/simple_example.cpp.o" "gcc" "CMakeFiles/simple_example.dir/examples/simple_example.cpp.o.d"
-  "/Users/pujachaudhury/Documents/C++/jax_ad/src/operations.cpp" "CMakeFiles/simple_example.dir/src/operations.cpp.o" "gcc" "CMakeFiles/simple_example.dir/src/operations.cpp.o.d"
-  "/Users/pujachaudhury/Documents/C++/jax_ad/src/var.cpp" "CMakeFiles/simple_example.dir/src/var.cpp.o" "gcc" "CMakeFiles/simple_example.dir/src/var.cpp.o.d"
+  "/Users/pujachaudhury/Documents/C++/jax_ad/examples/sin_example.cpp" "CMakeFiles/sin_example.dir/examples/sin_example.cpp.o" "gcc" "CMakeFiles/sin_example.dir/examples/sin_example.cpp.o.d"
+  "/Users/pujachaudhury/Documents/C++/jax_ad/src/operations.cpp" "CMakeFiles/sin_example.dir/src/operations.cpp.o" "gcc" "CMakeFiles/sin_example.dir/src/operations.cpp.o.d"
+  "/Users/pujachaudhury/Documents/C++/jax_ad/src/var.cpp" "CMakeFiles/sin_example.dir/src/var.cpp.o" "gcc" "CMakeFiles/sin_example.dir/src/var.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
