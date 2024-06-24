@@ -1,6 +1,8 @@
 # Automatic Differentiation in C++
 This project demonstrates automatic differentiation using C++ to compute the value and derivative of mathematical functions. Automatic differentiation (AD) is a technique that allows us to evaluate the derivative of a function specified by a computer program efficiently and accurately.
 
+<img width="521" alt="Screenshot 2024-06-23 at 9 27 19 PM" src="https://github.com/catplotlib/Jax_in_cpp/assets/61319491/b14848ba-00e0-4193-b992-1133a46b14ff">
+
 # What is AD?
 Automatic differentiation is a computational technique used to find the derivative of functions. Unlike symbolic differentiation, which manipulates mathematical expressions, or numerical differentiation, which approximates derivatives using finite differences, AD works at the level of computer programs by applying the chain rule of calculus at every step of a given computation.
 
